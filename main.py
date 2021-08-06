@@ -77,7 +77,7 @@ def beginner():
                 return points
         else:
             w=random.randrange(5,21)
-            z=random.randrange(0,11)
+            z=random.randrange(1,11)
             print(w,'/',z,'=',end='?')
             start = time.time()
             result = int(input())
